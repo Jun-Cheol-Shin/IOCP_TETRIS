@@ -1,0 +1,202 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS
+BEGIN
+    VK_ESCAPE,      IDM_GAME_EXIT,          VIRTKEY, NOINVERT
+    VK_INSERT,      IDM_GAME_PAUSE,         VIRTKEY, NOINVERT
+    "T",            IDM_GAME_START,         VIRTKEY, NOINVERT
+    "E",            IDM_GAME_VIEWSPACE,     VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "bitmap1.bmp"
+
+IDB_BITMAP2             BITMAP                  "bitmap2.bmp"
+
+IDB_BITMAP3             BITMAP                  "bitmap3.bmp"
+
+IDB_BITMAP4             BITMAP                  "bitmap4.bmp"
+
+IDB_BITMAP5             BITMAP                  "bitmap5.bmp"
+
+IDB_BITMAP6             BITMAP                  "bitmap6.bmp"
+
+IDB_BITMAP7             BITMAP                  "bitmap7.bmp"
+
+IDB_BITMAP8             BITMAP                  "bitmap8.bmp"
+
+IDB_BITMAP9             BITMAP                  "bitmap9.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "MENU"
+    BEGIN
+        MENUITEM "LOGIN",                       ID_MENU_LOGIN
+        MENUITEM "LOGOUT",                      ID_MENU_LOGOUT
+        MENUITEM "JOIN",                        ID_MENU_JOIN
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 165, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "로그인"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,62,20,80,14,ES_AUTOHSCROLL
+    LTEXT           "아이디 : ",IDC_STATIC,21,23,31,8
+    LTEXT           "비밀번호 :",IDC_STATIC,21,43,39,8
+    EDITTEXT        IDC_EDIT2,62,41,80,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "로그인",IDC_BUTTON1,108,69,50,14
+    CTEXT           "",IDC_MSG,19,68,73,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 165, 109
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,62,20,80,14,ES_AUTOHSCROLL
+    LTEXT           "아이디 : ",IDC_STATIC,21,23,31,8
+    LTEXT           "비밀번호 :",IDC_STATIC,21,45,39,8
+    EDITTEXT        IDC_EDIT2,62,41,80,14,ES_AUTOHSCROLL
+    CTEXT           "",IDC_MSG,21,87,73,8
+    LTEXT           "닉네임 :",IDC_STATIC,21,66,39,8
+    EDITTEXT        IDC_EDIT3,62,62,80,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "회원가입",IDC_BUTTON1,108,88,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 158
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 158
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

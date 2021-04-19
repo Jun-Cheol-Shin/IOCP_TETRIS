@@ -1,0 +1,2 @@
+D:\Downloads\새 폴더\기말고사\CompletionPortTCPServer\Debug\CompletionPortTCPServer.exe
+D:\Downloads\새 폴더\기말고사\CompletionPortTCPServer\Debug\CompletionPortTCPServer.pdb
